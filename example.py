@@ -12,13 +12,6 @@ protocol = 'https:// OR http://'
 apiKey = 'InsertYourApiKeyHere'
 apiHost = 'YOURDOMAIN.COM/api/orders/'
 stateSent = '4' # New status to set automatically
-config = {
-    'host':'Yourdomain.com',
-    'user':'Userdatabase',
-    'password':'passwordDatabase',
-    'database':'nameDatabase',
-    'raise_on_warnings': True
-}
 
 while 1: # Optional while order.upper()!= 'Q': to exit
     order = input('Insert order to update:')
